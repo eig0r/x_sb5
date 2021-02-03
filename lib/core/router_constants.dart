@@ -2,3 +2,4 @@
 
 const String splashViewRoute = 'splashViewRoute';
 const String signUpViewRoute = 'signUpViewRoute';
+const String eventPageViewRoute = 'eventPageViewRoute';

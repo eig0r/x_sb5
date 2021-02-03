@@ -14,7 +14,7 @@ class SplashViewModel extends BaseViewModel {
     this.log = getLogger(this.runtimeType.toString());
   }
 
-  NaviToView() {
+  navitoview() {
     _navigationService.navigateTo(signUpViewRoute);
   }
 }

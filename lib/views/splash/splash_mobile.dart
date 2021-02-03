@@ -9,9 +9,26 @@ class _SplashMobile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: GestureDetector(
-          child: Text('SplashMobile'),
-          onLongPress: viewModel.NaviToView,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              GestureDetector(
+                child: SizedBox(
+                  width: 200,
+                  height: 200,
+                  child: Image.asset('assets/images/sb5.png'),
+                ),
+                onTap: viewModel.navitoview,
+              ),
+              CircularProgressIndicator(
+                strokeWidth: 3,
+                valueColor: AlwaysStoppedAnimation(
+                  Theme.of(context).primaryColor,
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
