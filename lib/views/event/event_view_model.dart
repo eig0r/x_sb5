@@ -6,11 +6,11 @@ import 'package:x_sb5/core/logger.dart';
 import 'package:x_sb5/core/router_constants.dart';
 //import 'package:x_sb5/views/signup/signup_view.dart';
 
-class SplashViewModel extends BaseViewModel {
+class EventViewModel extends BaseViewModel {
   Logger log;
   final NavigationService _navigationService = locator<NavigationService>();
 
-  SplashViewModel() {
+  EventViewModel() {
     this.log = getLogger(this.runtimeType.toString());
   }
 

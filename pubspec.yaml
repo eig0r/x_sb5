@@ -14,7 +14,14 @@ dependencies:
     stacked_services: ^0.5.4+2
     responsive_builder: ^0.2.0+2
     equatable: ^1.2.4
-dev_dependencies:
+    firebase_auth: ^0.16.1
+    checkbox_grouped: ^0.8.1
+    uuid: ^2.2.2
+    http: ^0.12.2
+    shared_preferences: ^0.5.12+4
+    sprintf: ^5.0.0
+    loading: ^1.0.2
+   
     flutter_test:
         sdk: flutter
 flutter:
@@ -23,6 +30,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   # assets:
+    assets:   
+    - assets/
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
       
